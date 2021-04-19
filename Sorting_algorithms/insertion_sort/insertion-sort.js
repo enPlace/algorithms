@@ -7,9 +7,9 @@ function insertionSort(array){
 	for(let i = 1; i< array.length; i++){ //starting at postion 1 in the loop
 		let j = i
 		while(array[j]<array[j-1]){
-			let current = array[j]
-			let prev = array[j-1]
-			array[j] = prev
+			let current = array[j]        //sets value for current and previous numbers
+			let prev = array[j-1]		  	
+			array[j] = prev         	  //switches current number with previous number
 			array[j-1] = current
 			j--
 
