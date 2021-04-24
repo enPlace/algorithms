@@ -1,0 +1,1 @@
+The goal of this page is to illustrate sorting algorithms so that the user can visualize each algorithm's different approach to sorting. I do this by emulating what we would normally use in a for loop with the setInterval() function. 
